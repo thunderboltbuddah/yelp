@@ -5,7 +5,6 @@ import styles from './SubNav.module.css'
 function SubNav() {
   return (
     <div className={styles['container']}>
-        
     <div className={styles['sub-nav']}>
         <div>
         <SubNavItem label="Restaurant" icon='fa-utensils'/>
@@ -17,7 +16,7 @@ function SubNav() {
         </div>
       
       <div>
-      <button className="button is-radiusless">
+      <button className="button is-radiusless ">
     <span className="icon is-small">
       <i className="fas fa-pen"></i>
     </span>
@@ -32,8 +31,9 @@ function SubNav() {
       </div>
         
     </div>
-    
-    </div>
+   
+
+</div>
   )
 }
 

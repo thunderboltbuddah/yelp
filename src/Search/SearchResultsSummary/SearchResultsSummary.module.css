@@ -1,0 +1,29 @@
+.search-summary{
+    background-color: rgb(245,245,245);
+    padding: 2rem 0;
+    max-width: 1185px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: rgb(245,245,245);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(230,230,230);
+    align-items: center;
+}
+.search-summary p{
+    font-size: 0.9rem;
+}
+.filters{
+    display: flex;
+ 
+   width: 100%;
+}
+.filters > * {
+    margin-right :0.7rem;
+}
+.container > *{
+    max-width: 1185px;
+}

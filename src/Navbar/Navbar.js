@@ -4,9 +4,9 @@ import styles from './Navbar.module.css'
 import SearchBar from '../LandingPage/SearchBar/SearchBar'
 function Navbar() {
   return (
-    <div className={styles['nav-bar']}>
-
-      <img src={logo} alt="logo
+  
+<div className={styles['nav-bar']}>
+<img src={logo} alt="logo
       " className={styles.logo}>
       </img>
 <SearchBar/>
@@ -16,7 +16,9 @@ Sign In
 <button className={`button ${styles['nav-button']}`}>
 Register
 </button>
-    </div>
+  
+</div>
+
   )
 }
 

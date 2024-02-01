@@ -1,0 +1,8 @@
+.search-results > *{
+    margin: 0.5rem;
+}
+.search-results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

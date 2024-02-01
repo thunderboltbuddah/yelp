@@ -1,0 +1,17 @@
+.search-result{
+    display: flex;
+    max-width : 1185px;
+    width: 100%;
+}
+.business-image{
+    width: 200px;
+margin-right:1rem ;
+    height: 200px;
+    border-width: 4px;
+}
+.business-info{
+    min-width: 600px;
+}
+.contact-info p {
+font-size: 0.85rem;
+}
