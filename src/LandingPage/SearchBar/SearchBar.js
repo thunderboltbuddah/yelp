@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './SearchBar.module.css'
-function SearchBar() {
+function SearchBar(props) {
+  const [term,setterm]=useState(props.term || " ")
+  const [location,setlocation]=useState(props.location || " ")
   return (
     <div>
 
