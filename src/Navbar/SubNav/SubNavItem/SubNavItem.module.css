@@ -1,0 +1,12 @@
+.sub-nav-item{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(230,230,230);
+   
+    border-left: 1px solid rgb(230,230,230);
+   
+}
+.sub-nav-item > * {
+ margin-right: 4px;  
+}

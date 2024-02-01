@@ -1,0 +1,15 @@
+
+:global(.button).nav-button{
+   margin-left: 1rem;
+}
+.nav-bar{
+    display: flex;
+    background-color: #d32323;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: center;
+}
+.logo{
+    width: 75px;
+    margin-right: 1rem;
+}
